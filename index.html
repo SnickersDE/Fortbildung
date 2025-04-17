@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+  <link rel="stylesheet" href="css/styles.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -178,11 +179,14 @@
   <footer>
     <p>&copy; 2025 – DEINE WEBSITE. ALLE RECHTE VORBEHALTEN.</p>
   </footer>
-
+  
   <script>
+    src="js/script.js"
     // Slideshow Funktion
+    
     let slideIndex = 0;
-    showSlides();
+    showSlides(<img class="slides" src="img/bild1.jpg" alt="Slideshow Bild 1">
+);
 
     function showSlides() {
       const slides = document.getElementsByClassName("slides");
