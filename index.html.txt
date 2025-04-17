@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Webseite</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Willkommen auf meiner Webseite</h1>
+  </header>
+
+  <nav>
+    <a href="#start"><img src="img/logo.png" class="logo" alt="Buch-Icon"> Start</a>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#fortbildungen">Fortbildungen</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#impressum">Impressum</a>
+  </nav>
+
+  <main class="content">
+    <section id="start">
+      <img src="https://via.placeholder.com/1200x400" alt="Startbild" class="hero-img">
+      <h2>Blogbereich</h2>
+      <div class="beitrag">Beitrag 1 – Platzhaltertext</div>
+      <div class="beitrag">Beitrag 2 – Platzhaltertext</div>
+    </section>
+
+    <section id="ueber-mich">
+      <div class="slideshow">
+        <img class="slides" src="https://via.placeholder.com/1200x400?text=Bild+1" alt="Bild 1">
+        <img class="slides" src="https://via.placeholder.com/1200x400?text=Bild+2" alt="Bild 2">
+        <img class="slides" src="https://via.placeholder.com/1200x400?text=Bild+3" alt="Bild 3">
+      </div>
+      <article class="blog-post">
+        <h2>Über mich</h2>
+        <p>Persönlicher Text folgt hier – Platzhalter für Beschreibung und Blogeintrag.</p>
+      </article>
+    </section>
+
+    <section id="fortbildungen">
+      <h2>Fortbildungen</h2>
+      <div class="reiter">
+        <button>Schwerpunkte</button>
+        <div class="reiter-content">
+          <a href="#">Medienpädagogik</a>
+          <a href="#">Fortbildung für Lehrkräfte</a>
+          <a href="#">Fortbildungen für Erzieher</a>
+          <a href="#">Seminare</a>
+        </div>
+      </div>
+      <p>Details zu Fortbildungsschwerpunkten folgen hier.</p>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontaktformular</h2>
+      <form action="mailto:Florian_97@live.de" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="nachricht">Nachricht:</label><br>
+        <textarea id="nachricht" name="nachricht" required></textarea><br>
+        <input type="submit" value="Absenden">
+      </form>
+    </section>
+
+    <section id="impressum">
+      <h2>Impressum</h2>
+      <p><strong>Name:</strong> [Name hier einfügen]</p>
+      <p><strong>Adresse:</strong> [Adresse hier einfügen]</p>
+      <p><strong>Telefon:</strong> [Telefonnummer hier einfügen]</p>
+      <p><strong>E-Mail:</strong> [E-Mail-Adresse hier einfügen]</p>
+      <p><strong>Verantwortlich gemäß § 55 RStV:</strong> [Verantwortliche Person hier einfügen]</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 – Deine Website. Alle Rechte vorbehalten.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
